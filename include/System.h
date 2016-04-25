@@ -114,6 +114,9 @@ private:
 
     // Input sensor
     eSensor mSensor;
+    
+    // Enable/Disable viewer
+    bool mbUseViewer;
 
     // ORB vocabulary used for place recognition and feature matching.
     ORBVocabulary* mpVocabulary;
